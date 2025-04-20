@@ -119,7 +119,7 @@ class Scraper:
 
 if __name__ == "__main__":
     # 目标网站URL（需要替换成实际地址）
-    BASE_URL = "https://web.stanford.edu/class/cs143/"
+    BASE_URL = ""  #  目标地址
     # 保存PDF的目录
     SAVE_DIR = "download/pdf_downloads_2_class_test3"
     crawler = Scraper(BASE_URL, SAVE_DIR)
